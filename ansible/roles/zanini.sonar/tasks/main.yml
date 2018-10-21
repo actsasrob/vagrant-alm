@@ -50,7 +50,7 @@
     port: 9000/tcp
     permanent: yes 
     state: enable 
-  ignores_errors: yes 
+  ignore_errors: yes 
 
 
 - name: Allow Sonar time to build on first start.
